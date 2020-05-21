@@ -1,2 +1,4 @@
-# ML-techniques
+# Prediction Techniques Using Machine Learning
 Utilizing R, I analyze several prediction techniques, including regression, decision trees (with cross validation), and random forests. I analyze a natality data from the CDC and from my "Using Big Data to Solve Economic and Social Problems" course at Harvard. Script was written with guidance from the course's resources and labs.
+
+The script analyzes birthweight against several variables such as the age of the mother when having the child, whether the mom had gestational hypertension, and whether the mom had chronic hypertension. Using these predictor variables, I look at how effective each technique is in predicting birthweight. I compare the methods and show signs of overfitting, as well as techniques to combat that through cross validation. Using random forests, I use machine learning to optimize prediction models, but find that it requires more data. The dataset I used had 50,000 observations. 
